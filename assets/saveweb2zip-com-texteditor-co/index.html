@@ -1,0 +1,420 @@
+<!DOCTYPE html><html lang="en"><head>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="google" content="notranslate">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>My Drive - Google Drive</title>
+
+    <link rel="icon" href="data:image/png;base64,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" type="image/x-icon">
+
+    <link rel="stylesheet" type="text/css" href="css/styles-main-2-11-min.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,400i,500&amp;display=swap" rel="stylesheet">
+
+    <script async="" src="js/bootloader-2-11-min.js"></script>
+    
+    <script data-ad-client="ca-pub-6406277318721692" async="" src="js/adsbygoogle.js"></script>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header">
+      <div id="headerLeft">
+        <div id="headerIcon">
+          <img id="headerIconImg" src="images/texteditor.png" alt="Text Editor">
+        </div>
+
+        <div id="headerData">
+          <div id="appTextHeader">Text Editor</div>
+
+          <div id="textFilenameInputContainer" hidden="">
+            <input id="textFilenameInput" placeholder="Filename">
+          </div>
+
+          <h1 id="appCaption">
+            Free app for editing text files
+          </h1>
+        </div> <!-- ENDS HEAER DATA -->
+      </div> <!-- ENDS HEADER LEFT-->
+
+      <div id="headerActionContainer">
+
+        <div id="actionStatusLabel">
+        </div>
+
+        <div id="mainIconContainer">
+          <i id="mainIcon" class="material-icons" aria-hidden="true" hidden="">info_outline</i>
+          <div id="mainSpinner" class="newSpinnerDiv">
+            <img src="images/spinner-44.gif" class="newSpinnerImg" alt="Loading...">
+          </div>
+        </div>
+
+        <div id="actionButtonContainer">
+          <button id="saveToDriveButton" disabled="" class="ze-button ze-button--raised--colored headerActionButton saveToDriveButton" hidden="">
+            <img src="images/drive-add.svg" class="material-icons ze-button-icon previewSaveToDriveButtonIcon" aria-hidden="true">
+            <span class="hideOnMobileOrDisplayInline">Save to Drive</span>
+          </button>
+
+          <button id="saveCopyButton" disabled="" class="ze-button ze-button--raised--colored ze-button-left headerActionButton downloadButton" hidden="">
+            <img src="images/drive-add.svg" class="material-icons ze-button-icon previewSaveToDriveButtonIcon" aria-hidden="true">
+            <span class="hideOnMobileOrDisplayInline">Save a Copy</span>
+          </button>
+
+          <button id="downloadButton" class="ze-button ze-button--raised--colored ze-button-left headerActionButton downloadButton" hidden="">
+            <i class="material-icons ze-button-icon" aria-hidden="true">save_alt</i>
+            <span class="hideOnMobileOrDisplayInline">Download</span>
+          </button>
+
+          <button id="retryButton" class="ze-button ze-button--raised ze-button-left headerActionButton retryButton" hidden="">
+            <i class="material-icons ze-button-icon" aria-hidden="true">refresh</i>
+            Retry
+          </button>
+
+          <button id="cancelButton" class="ze-button ze-button--colored ze-button-left headerActionButton cancelButton" hidden="">
+            <i class="material-icons ze-button-icon" aria-hidden="true">cancel</i>
+            Cancel
+          </button>
+
+          <button id="viewFilesButton" class="ze-button ze-button--raised--colored ze-button-left headerActionButton primaryButton" hidden="">
+            <img src="images/drive-main.svg" class="material-icons ze-button-icon previewSaveToDriveButtonIcon" aria-hidden="true">
+            View in Drive
+          </button>
+
+          <button id="closeButton" class="ze-button ze-icon-button closeButton" aria-label="Close" hidden="">
+            <i class="material-icons ze-icon-button-icon ze-icon-button-icon-large">clear</i>
+          </button>
+        </div> <!-- ENDS ACTION BUTTON CONTAINER -->
+
+      </div> <!-- ENDS HEADER ACTION CONTAINER -->
+
+      <div id="profileImageDiv">
+        <div id="profileName" hidden=""></div>
+        <img id="profileImageImg" src="images/default_person.svg" alt="Google Account" title="Google Account">
+      </div>
+
+      <div id="progressBarContainer" class="progressBarContainer">
+        <div id="mainProgressBar" class="linear-progress mainProgressBar">
+          <div class="linear-progressbar linear-progress-bar bar1"></div>
+        </div>
+      </div>
+
+    </div> <!-- ENDS HEADER -->
+
+    <div id="centeredBodyContent">
+      <div id="mainWrapper">
+        <div id="appContent">
+          <div id="mainApp">
+            <div id="mainBackgroundSpinner" hidden="">
+              <div id="backgroundSpinnerDiv">
+                <img id="backgroundSpinnerImg" src="images/spinner-44.gif" alt="Loading...">
+              </div>
+              <div id="backgroundSpinnerText">
+                Loading...
+              </div>
+              <div id="backgroundSpinnerTextFilename">
+                Loading...
+              </div>
+            </div>
+
+            <!-- MAIN TEXT AREA AND CONTAINER -->
+            <div id="mainEditorContainer" class="cardShadow" hidden="">
+
+              <!-- EDITOR TOOLBAR -->
+              <div id="appToolbar" hidden="">
+                <div id="appToolbarPrimary">
+                  <div id="undoButton" class="editorToolbarButton" aria-label="Undo" title="Undo">
+                    <i class="material-icons editorToolbarButtonImg">undo</i>
+                  </div>
+
+                  <div id="redoButton" class="editorToolbarButton" aria-label="Redo" title="Redo">
+                    <i class="material-icons editorToolbarButtonImg md-tooltip">redo</i>
+                  </div>
+
+                  <div id="printButton" class="editorToolbarButton editorToolbarButtonLeftSpace" aria-label="Print" title="Print">
+                    <i class="material-icons editorToolbarButtonImg md-tooltip">print</i>
+                  </div>
+
+                  <div id="toggleNumbersButton" class="editorToolbarButton editorToolbarButtonLeftSpace" aria-label="Line numbers" title="Line numbers">
+                    <i class="material-icons editorToolbarButtonImg md-tooltip">format_list_numbered</i>
+                  </div>
+
+                  <div id="wordWrapButton" class="editorToolbarButton" aria-label="word wrap" title="Word wrap">
+                    <i class="material-icons editorToolbarButtonImg md-tooltip">wrap_text</i>
+                  </div>
+
+                  <div id="indentSoftWrapButton" class="editorToolbarButton" aria-label="Line wrap indents" title="Line wrap indents">
+                    <i class="material-icons editorToolbarButtonImg md-tooltip">format_indent_increase</i>
+                  </div>
+
+                  <div id="printMarginButton" class="editorToolbarButton" aria-label="Print margin" title="Print margin">
+                    <i class="material-icons editorToolbarButtonImg md-tooltip">border_right</i>
+                  </div>
+
+                  <div id="tabsButton" class="editorToolbarButton" aria-label="Tab / Spaces" title="Tabs / Spaces">
+                    <i class="material-icons editorToolbarButtonImg md-tooltip">keyboard_tab</i>
+                  </div>
+
+                  <div id="showInvisiblesButton" class="editorToolbarButton" aria-label="Whitespace characters" title="Whitespace characters">
+                    <i class="material-icons editorToolbarButtonImg md-tooltip">more_horiz</i>
+                  </div>
+
+                  <div id="increaseFontSizeButton" class="editorToolbarButton editorToolbarButtonLeftSpace" aria-label="Font size" title="Font size">
+                    <i class="material-icons editorToolbarButtonImg md-tooltip">text_fields</i>
+                  </div>
+
+                  <div id="themeButton" class="editorToolbarButton" aria-label="Editor theme" title="Editor theme">
+                    <i class="material-icons editorToolbarButtonImg md-tooltip">color_lens</i>
+                  </div>
+
+                  <!--
+                  <button id="lineBreakButton" class="editorToolbarButton" aria-label="Toggle line breaks" title="Toogle line breaks">
+                    <i class="material-icons editorToolbarButtonImg md-tooltip">format_textdirection_l_to_r</i>
+                  </button>
+                  -->
+
+                  <div id="findReplaceButton" class="editorToolbarButton editorToolbarButtonLeftSpace" aria-label="Find and replace" title="Find and replace">
+                    <i class="material-icons editorToolbarButtonImg md-tooltip">find_replace</i>
+                  </div>
+
+                  <div id="gotoLineButton" class="editorToolbarButton" aria-label="Go to line" title="Go to line">
+                    <i class="material-icons editorToolbarButtonImg md-tooltip">double_arrow</i>
+                  </div>
+
+
+                  <div id="keyboardShortcutsButton" class="editorToolbarButton editorToolbarButtonLeftSpace" aria-label="Keyboard shortcuts" title="Keyboard shortcuts">
+                    <i class="material-icons editorToolbarButtonImg md-tooltip">keyboard</i>
+                  </div>
+
+                  <div id="settingsMenuButton" class="editorToolbarButton" aria-label="Settings menu" title="Settings menu">
+                    <i class="material-icons editorToolbarButtonImg md-tooltip">settings</i>
+                  </div>
+
+                  <div id="commandPalletteButton" class="editorToolbarButton" aria-label="Command menu" title="Command menu">
+                    <i class="material-icons editorToolbarButtonImg md-tooltip">stars</i>
+                  </div>
+
+                  <div id="openInDriveButton" class="editorToolbarButton" hidden="" aria-label="Open in Drive" title="Open in Drive">
+                    <i class="material-icons editorToolbarButtonImg md-tooltip" aria-hidden="true">open_in_new</i>
+                    <!-- Open in Drive -->
+                  </div>
+                </div>
+
+                <div id="appToolbarSecondary">
+                </div>
+
+              </div> <!-- ENDS APP TOOLBAR -->
+              <div id="mainEditor" tabindex="0"></div>
+            </div> <!-- ENDS MAIN EDITOR CONTAINER -->
+
+            <!-- BEGIN Scrollable Start Page Content -->
+            <div id="mainScrollableContent" class="cardShadow">
+
+              <!-- BEGIN Scrollable StartCard -->
+              <div id="startCard">
+                <div id="startPagePrompt">
+
+                  <h2>Welcome to Text Editor</h2>
+
+                  <div id="startPageText">
+                    <div id="startPageIcon">
+                      <img id="startPageIconImgDrive" class="startPageIconImg" src="images/drive-logo.svg" alt="Google Drive" visibilityhidden="">
+                      <img id="startPageIconImgGmail" class="startPageIconImg" src="images/gmail-logo.svg" alt="Gmail" hidden="">
+                      <img id="startPageIconImgGeneral" class="startPageIconImg" src="images/texteditor.png" alt="Text Editor" hidden="">
+                    </div>
+
+                    <div id="startPageDetailsContainer">
+                      <p>Text Editor is a free app that allows you to create, open, and edit text files on your computer and Google Drive.
+
+                      <!-- BEGIN THREE OPTIONS FOR START PAGE -->
+
+                      <!-- GENERAL USER -->
+                      </p><div id="startPageGeneralDetails" class="startPageDetails" hidden="">
+                        <p id="startPageGeneralDetailsCallToAction" class="callToActionPara" visibilityhidden="">To get started, open a text file with one of the buttons below.
+                      </p></div>
+
+                      <!-- GMAIL USER -->
+                      <div id="startPageGmailDetails" class="startPageDetails" hidden="">
+                        <p>You've opened a Gmail attachment with Text Editor. This will allow you to view and edit the file.
+
+                        </p><p id="startPageGmailDetailsCallToAction" class="callToActionPara" visibilityhidden="">To continue, authorize Text Editor with the button below.
+                      </p></div>
+
+                      <!-- DRIVE USER -->
+                      <div id="startPageDriveDetails" class="startPageDetails" hidden="">
+                        <p>You've opened a file in Google Drive with Text Editor. This will allow you to view and edit the file.
+
+                        </p><p id="startPageDriveDetailsCallToAction" class="callToActionPara" visibilityhidden="">To continue, authorize Text Editor with the button below.
+                      </p></div>
+
+                      <!-- NEW TEXT FILE USER -->
+                      <div id="startPageNewDetails" class="startPageDetails" hidden="">
+                        <p>You've chosen to create a new text file with Text Editor. Please wait while the application loads.
+                      </p></div>
+
+                      <!-- ALL BUTTONS CONTAINER -->
+                      <div id="startButtonsContainer">
+
+                        <!-- GENERAL BUTTON CONTAINER -->
+                        <div id="generalButtonContainer" hidden="">
+
+                          <button id="openFileFromComputerButton" class="ze-button ze-button--raised--colored openButton openButtonLeft openButtonFirstLine">
+                            <i class="material-icons ze-button-icon-large" aria-hidden="true">computer</i>
+                            Open File From Computer
+                          </button>
+
+                          <button id="openFileFromDriveButton" class="ze-button ze-button--raised--colored ze-button openButton openButtonLeft openButtonSecondLine">
+                            <img src="images/drive-main.svg" class="material-icons ze-button-icon-large previewSaveToDriveButtonIcon" aria-hidden="true">
+                            Open File From Google Drive
+                          </button>
+
+                          <button id="createNewTextFileButton" class="ze-button ze-button--raised--colored openButton">
+                            <img class="material-icons ze-button-icon-large ze-button-icon-background ze-create-button-icon" src="images/create_64.png" alt="Create New Text File">
+                            Create New Text File
+                          </button>
+                        </div> <!-- ENDS GENERAL BUTTON CONTAINER -->
+
+                        <!-- AUTH BUTTON CONTAINER -->
+                        <div id="authButtonContainer">
+                          <div id="checkingAuthSpinner">
+                            Loading...
+                            <img src="images/spinner-44.gif" class="newSpinnerImg checkingAuthSpinnerImg" alt="Loading...">
+                          </div>
+
+                          <button id="authButton" class="ze-button ze-button--raised--colored" hidden="">
+                            <i class="material-icons ze-button-icon-large" aria-hidden="true">cloud_done</i>
+                            Authorize Text Editor
+                          </button>
+                          <div id="authButtonDetails">
+                          </div>
+                        </div> <!-- ENDS AUTH BUTTON CONTAINER -->
+                      </div> <!-- ENDS ALL BUTTONS CONTAINER -->
+                    </div> <!-- ENDS startPageDetailsContainer-->
+                  </div> <!-- ENDS startPageText-->
+                </div> <!-- ENDS START PAGE PROMPT -->
+              </div> <!-- ENDS START CARD -->
+
+              <div id="textBlockHowToUse" class="textBlock">
+                <h2>How to use Text Editor</h2>
+                <ol>
+                  <li>First, select a text file from your computer, Google Drive, or GMail attachment.
+                  </li><li>The file will be displayed in your browser where you can then make any changes or edits.
+                  </li><li>After edits are made, press the "Save to Drive" button to save the edited file back to Google Drive.
+                  </li><li>Download a copy of the file to your computer or device using the "Download" button.</li>
+                </ol>
+              </div>
+
+              <div id="textBlock0" class="textBlock">
+                <h2>How Text Editor works</h2>
+                <ul>
+                  <li>Text Editor is a pure Javascript web app. All processing is done locally in your web browser and on your computer.
+                  </li><li>This app will open a text file of your choice, letting you make changes and save back them to Google Drive or your computer.
+                  </li><li>Text Editor can open all text files types including TXT, CSV, HTML, XML, CSS and JSON as well as code files such as C++, Java, and Python.
+                  </li><li>Standard text editor features are supported including syntax highlighting, word wrap, themes, and keyboard shortcuts.
+                  </li><li>Keyboard shortcuts are supported; press the "Keyboard" icon in the toolbar to display a list of all keyboard shortcuts.
+                </li></ul>
+              </div>
+
+              <div id="textBlock1" class="textBlock">
+                <h2>Text Editor Toolbar</h2>
+                <ul>
+                  <li>Text Editor has a toolbar that allows you to configure the editor screen according to your preferences.
+                  <img id="textEditorToolbarStartPage" src="images/text-editor-toolbar.png" alt="Text Editor Toolbar">
+                  </li><li>The buttons on the toolbar are described below.
+                  <ul>
+                    <li><b>Undo</b> - Undo the last action or text edit
+                    </li><li><b>Redo</b> - Redo the last action or text edit
+                    </li><li><b>Print</b> - Print the current text document
+                    </li><li><b>Word Wrap</b> - Toggle the current word wrap mode. Cycles between word wrap on, word wrap to edge of editor, and word wrap to the print margin, if defined.
+                    </li><li><b>Line Numbers</b> - Toggle whether line numbers are displayed on the side of the editor.
+                    </li><li><b>Print Margin</b> - Toggle whether the print margin is displayed. Cycles between displayed at 80 characters, displayed at 100 characters, and off.
+                    </li><li><b>Tab Mode</b> - Toggle the tab mode. Cycles between hard tabs, soft tabs with 2 spaces, and soft tabs with 4 spaces.
+                    </li><li><b>Whitespace characters</b> - Toggles whether "invisible" whitespace characters are shown, for example, tab markers, spaces between words and carriage returns (line breaks).
+                    </li><li><b>Font size</b> - Cycles through font sizes ranging from 10px font size to 24px font size.
+                    </li><li><b>Theme</b> - Cycles through "light" theme, "dark" theme, and "blue" theme.
+                    </li><li><b>Find and Replace</b> - Finds the specified text on the page, optionally replacing one or more occurrences with a new text value.
+                    </li><li><b>Go to Line</b> - Jumps to the specified line number in the text document.
+                    </li><li><b>Download</b> - Downloads a copy of the text file to your browser.
+                    </li><li><b>Open in Drive</b> - Opens the text file in Google Drive.
+                  </li></ul>
+                </li></ul>
+              </div>
+
+              <div id="footer">
+                <div id="about">
+                  <div id="copyright">Copyright © 2020 Text Editor™</div>
+                  <div id="applinks">
+                    <a href="privacy.html" target="_blank">Privacy Policy</a> |
+                    <a href="terms.html" target="_blank">Terms</a> |
+                    <a href="contact.html" target="_blank">Contact</a>
+                  </div>
+                </div> <!-- ENDS ABOUT -->
+              </div> <!-- ENDS FOOTER -->
+
+              <input type="file" id="openLocalFileInputEl" accept=".c,.h,.m,.md,.cc,.cs,.pl,.pm,.rb,.scss,.csv,.txt,.rtf,.htm,.html,.mhtml,.mxml,.ts,.tsx,.js,.css,.scss,.xml,.xsl,.json,.java,.py,.log,.tex,.cls,.java,.cpp,.hpp,.php,.bak,.yaml,.rels,.bsh,.csh,.cyc,.cv,.perl,.ipynb,.bat,.stp,.ini,.inf,.mbox,.msg,.lic,.eml,.text,.latex,.conf,.smi,.sub,.srt,.asc,.lst,.bas,.asp,.aspx,.eg,.manifest,.ascii,.yml,.eng,.xsl,.enc,.ps1,.ino,.url,.vcf,.aux,.toc,.coffee,.rbw,.sass,.scad,.clj,.scala,.textile,.cu,.bib,.rtx,.sql,.pas,.as,.r,.nc,.cnc,.ncc,.tap,.lua,.pb,.pbi,.properties,.cfg,.config,.nxc,.go,.tcl,.cmd,.groovy,.abc,.ahk,.ml,.lisp,.el,.vbs,.f90,.asm,.s,.vb,.vhdl,.xsd,.shtml,.shell,.haml,.rdoc,.ccpp,.less,.jsp,.crd,.kml,.kmz,.svg,.sqf,.sqs,.sqm,.ext,.yml,.bas,.awk,.st,.aiml,.vhd,.j,.ly,.bs2,.tsv,.aspx,.v,.sv,.sdf,.sln,.smi,.mol,.ps1,.pks,.pkb,.vw,.tab,.trg,.seq,.prc,.pls,.plb,.lng,.lst,.m51,.a51,.fs,.patch,.qml,.qrc,.pro,.pri,.afl,.data,.info,.org,.env,.csd,.orc,.sco" hidden="">
+              <a id="downloadAnchorEl" href="" download="" hidden=""></a>
+
+            </div> <!-- ENDS MAIN SCROLLABLE CONTENT -->
+
+            <!-- BEGIN Unsupported Browser DIV -->
+            <div id="unsupportedBrowserContent" class="cardShadow" hidden="">
+              <h2 id="unsupportedBrowserHeading">Unsupported Browser</h2>
+              <div id="unsupportedBrowserText">
+                <p>Our apologies, but Text Editor does not support the Internet Explorer web browser.
+                </p><p>In order to use Text Editor, please use a different web browser.
+              </p></div>
+
+              <div id="downloadWebBrowserText">
+                <p>Text Editor supports the following web browsers, which you can download and install using the links below:
+                </p><ul>
+                  <li>Microsoft Edge - <a target="_blank" href="https://www.microsoft.com/edge">www.microsoft.com/edge</a>
+                  </li><li>Mozilla Firefox - <a target="_blank" href="https://www.mozilla.org/firefox/new/">www.mozilla.org/firefox/new</a>
+                  </li><li>Google Chrome - <a target="_blank" href="https://www.google.com/chrome/">www.google.com/chrome</a>
+                </li></ul>
+              </div>
+            </div> <!-- ENDS Unsupported Browser Div -->
+
+            <!-- BEGIN App Load Failure DIV -->
+            <div id="appLoadErrorContent" class="cardShadow" hidden="">
+              <h2 id="appLoadErrorHeading">Application Load Error</h2>
+              <div id="appLoadErrorInfo">
+                <p>Our apologies, but Text Editor was not able to load.
+                </p><p>Please see the troubleshooting options below.
+              </p></div>
+
+              <div id="appLoadErrorOptions">
+                <ul>
+                  <li>Try reloading the page.</li>
+                  <li>Check your internet connection. Often times, a temporary issue with your internet connection can prevent Text Editor from loading correctly.
+                  </li><li>Try loading Text Editor in an "Incognito" or "Private Browsing" window. This will prevent any add-ons or extensions from running and interfering with the page.
+                  </li><li>Uninstall or disable any unneeded browser extensions that may be present.
+
+                  </li><li>Try using a different web browser:
+                    <ul>
+                      <li>Microsoft Edge - <a target="_blank" href="https://www.microsoft.com/edge">www.microsoft.com/edge</a>
+                      </li><li>Mozilla Firefox - <a target="_blank" href="https://www.mozilla.org/firefox/new/">www.mozilla.org/firefox/new</a>
+                      </li><li>Google Chrome - <a target="_blank" href="https://www.google.com/chrome/">www.google.com/chrome</a>
+                    </li></ul>
+                </li></ul>
+
+                <p>If the above steps do not resolve your issue, please contact Text Editor technical support with the error message below by emailing
+                  <a href="mailto:support@texteditor.co?subject=Text%20Editor%20Error%20Message">support@texteditor.co</a>.
+
+                <!-- Details to be populated dynamically via script -->
+                </p><div id="appLoadErrorDetails">
+                </div>
+
+              </div>
+            </div> <!-- ENDS App Load Error Div -->
+
+          </div> <!-- ENDS MAIN APP -->
+        </div> <!-- ENDS APP CONTENT  -->
+      </div> <!-- ENDS MAIN -->
+    </div>
+  
+
+</body></html>
