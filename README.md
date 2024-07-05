@@ -1,4 +1,3 @@
-# Nexus
 ## Changelog (v0.30)
 Major changes to UI, added About page.
 
