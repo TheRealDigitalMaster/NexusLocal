@@ -2,7 +2,7 @@
 Major changes to UI, added About page.
 
 ### v0.35 will be released soon.
-What I plan to add and change in the near future: 
+What I plan to add and change in the near future (update 3.05 to 5.0): 
 - Click off tab cloak
 - EdgeNotFound (game)
 - Live code editor
