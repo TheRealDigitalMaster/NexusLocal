@@ -1,3 +1,4 @@
+# NexusLocal
 ## Changelog (v0.35)
 Major changes:
 - Completely changed UI 
@@ -9,6 +10,7 @@ Major changes:
 What I plan to add and change in the near future (update 3.5 to 5.0): 
 - Click off tab cloak
 - EdgeNotFound (game)
+- Cluster Rush (game)
 - Live code editor
 - Markdown editor
 - Add more high quality games from [Scratch](https://scratch.mit.edu)
