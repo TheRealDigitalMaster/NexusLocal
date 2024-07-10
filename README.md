@@ -14,5 +14,10 @@ What I plan to add and change in the near future (update 3.5 to 5.0):
 - Image editor
 - Changes to UI
 
+### Notes for update v0.36:
+- Update ab-cloak font to quicksand-light 
+- Add Suika game
+- Add markdown editor
+- Add more games from Scratch
 
 ###### Note: this project is being updated often.
