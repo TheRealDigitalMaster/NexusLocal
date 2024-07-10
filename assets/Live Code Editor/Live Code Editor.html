@@ -1,0 +1,96 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="code-area">
+        <textarea id="htmlCode" placeholder="HTML Code" 
+                  oninput="showPreview()">
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+&lt;meta charset="UTF-8"&gt;
+&lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt;
+&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+&lt;title&gt;Document&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+Hello, This is an online code editor. I am currently still working on an export and import option into this project. So as of right now, to save your work, select all of your code and copy and paste into NotePad, which can be found on the NexusLocal homepage, then download to save it in your files.
+&lt;/body&gt;
+&lt;style&gt;
+&lt;/style&gt;
+&lt;script&gt;
+&lt;/script&gt;
+</textarea>
+       	
+      </div>
+      <div class="area">
+        <iframe id="preview-window"></iframe>
+      </div>
+
+      <style>
+          * {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  display: flex;
+  background-color: white;
+}
+.code-area {
+  display: flex;
+  flex-direction:column;
+  width: 50%;
+  border-right:2.5px solid #555;
+}
+.code-area textarea {
+  resize: none;
+  outline: none;
+  border: none;
+  background-color: #1e1e1e;
+  color: #d4d4d4;
+  font-family: 'Roboto' sans-serif;
+  width: 100%;
+  height: 100%;
+  font-size: 18px;
+  padding: 10px;
+ list-style: circle;
+}
+.area {
+  width: 50%;
+}
+.area iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+      </style>
+
+
+
+<script>
+  setTimeout(() => {
+    showPreview()
+  }, 1);
+    function showPreview(){
+  var htmlCode = document.getElementById("htmlCode").value;
+ 
+  var frame = document.getElementById("preview-window").contentWindow.document;
+  frame.open();
+  frame.write(htmlCode);
+  frame.close();
+}
+</script>
+
+    </body>
+
+
+</html>
