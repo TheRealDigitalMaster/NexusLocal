@@ -1,7 +1,15 @@
+@font-face {
+  src: url(assets/fonts/Quicksand-Light.ttf);
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  }
 body {
   background: #282a68;
   margin: 0;
   max-width: 100%;
+  font-family: "Quicksand", sans-serif;
   }
   button {
   border: none;
@@ -22,16 +30,20 @@ body {
   background-color: #282a68;
   }
   
+  a button {
+    font-family: "Quicksand", sans-serif;
+  }
+  
   h2 {
   color: white;
   text-shadow: 0 0 10px #cccccc, 0 0 20px #cccccc, 0 0 30px #cccccc, 0 0 40px #cccccc, 0 0 50px #cccccc;
-  font-family: sans-serif;
+  font-family: "Quicksand", sans-serif;
   font-size: 30px;
   }
   
   h3 {
   color: white;
-  font-family: sans-serif;
+  font-family: "Quicksand", sans-serif;
   font-size: 22.5px;
   }
   .header { 
@@ -81,13 +93,13 @@ body {
   
   footer a {
     color: white;
-    font-family: sans-serif;
+    font-family: "Quicksand", sans-serif;
     text-decoration: none;
     margin-right: 20px;
   }
 
   footer p {
-    font-family: sans-serif;
+    font-family: "Quicksand", sans-serif;
     color:#8070ff
   }
   
@@ -105,12 +117,12 @@ body {
   text-align: left;
   position: absolute; 
   color: #fff;
-  font-family: sans-serif;
+  font-family: "Quicksand", sans-serif;
   }
   
   .about p {
   font-size: 17.5px;
-  font-family: sans-serif;
+  font-family: "Quicksand", sans-serif;
   }
   
   .about ul {
