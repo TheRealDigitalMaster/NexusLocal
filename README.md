@@ -1,5 +1,5 @@
 # NexusLocal
-## Changelog (v0.36)
+## Changelog (v0.35.1)
 Major changes:
 - Added thin quicksand font to index.html, about.html, and Scratch Games.html
 - Added Live Code Editor
