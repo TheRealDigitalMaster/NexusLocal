@@ -1,5 +1,5 @@
 # NexusLocal
-## Changelog (v0.35.2)
+## Changelog (v0.36)
 - Added Suika game
 - Updated UI
 
