@@ -1,9 +1,7 @@
 # NexusLocal
-## Changelog (v0.35.1)
-- Added thin quicksand font to index.html, about.html, and Scratch Games.html
-- Added Live Code Editor
-- Updated Live Code Editor UI
-- Fixed minor bugs
+## Changelog (v0.35.2)
+- Added Suika game
+- Updated UI
 
 ### v0.40 will be released soon.
 What I plan to add and change in the near future (update 3.5 to 5.0): 
