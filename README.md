@@ -5,7 +5,6 @@
 
 ### v0.40 will be released soon.
 What I plan to add and change in the near future (update 3.5 to 4.0): 
-- Markdown editor
 - PDF Viewer
 - Data URL Generator
 - Changes to UI
