@@ -6,11 +6,11 @@
 ### v0.40 will be released soon.
 What I plan to add and change in the near future (update 3.5 to 4.0): 
 - Markdown editor
-- Add more high quality games from [Scratch](https://scratch.mit.edu)
-- Image editor
+- PDF Viewer
+- Data URL Generator
 - Changes to UI
 
-### Notes for update v0.36 - v0.38:
+### Notes for update v0.40 - v0.50:
 - Add markdown editor
 - Add more games from Scratch
 - Update UI
